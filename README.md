@@ -1,6 +1,6 @@
 # Wake up NAS
 
-A set of scripts and techniques to wake up my FreeNAS 0.7 box over Ethernet without so much as lifting my hands off the keyboard.
+Goal: boot my FreeNAS 0.7 machine from my desktop without so much as lifting my hands off the keyboard. This repo contains the technique and two scripts for Mac OS to accomplish this.
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ The script simply broadcasts a magic packet to the FreeNAS' MAC address on the L
 
 ## Applescript
 
-Export the .scpt as app by File > Save As... > *.app. Spotlight is set to only index my apps inside /Applications, so that's where I save it. No more need for third-party app launchers! Spotlight is binded to Ctrl-Space:
+Export the .applescript as an application from the Applescript Editor. Spotlight is set to index only /Applications, so that's where I save it. No more need for third-party app launchers! Spotlight is binded to Ctrl-Space:
 
 ![Wake up NAS - Spotlight](https://github.com/mt33/wakeupnas/raw/master/screenshots/spotlight.png)
 
@@ -20,4 +20,4 @@ And a simple confirmation (default is on Yes, so I can hit Enter):
 
 ![Wake up NAS - Confirm](https://github.com/mt33/wakeupnas/raw/master/screenshots/confirm.png)
 
-One second later the blue power LED on the box is on.
+An imperceptible amount of time later, the blue power LED on the box is on. Total keystrokes: 5.
