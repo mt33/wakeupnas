@@ -14,9 +14,9 @@ The script simply broadcasts a magic packet to the FreeNAS' MAC address on the L
 
 Export the .scpt as app by File > Save As... > *.app. Spotlight is set to only index my apps inside /Applications, so that's where I save it. No more need for third-party app launchers! Spotlight is binded to Ctrl-Space:
 
-![Wake up NAS - Spotlight](http://github.com/mt33/wakeupnas/screenshots/spotlight.png)
+![Wake up NAS - Spotlight](https://github.com/mt33/wakeupnas/raw/master/screenshots/spotlight.png)
 
 And a simple confirmation (default is on Yes, so I can hit Enter):
-![Wake up NAS - Confirm](http://github.com/mt33/wakeupnas/screenshots/confirm.png)
+![Wake up NAS - Confirm](https://github.com/mt33/wakeupnas/raw/master/screenshots/confirm.png)
 
 One second later the blue power LED on the box is on.
