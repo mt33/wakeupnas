@@ -8,7 +8,7 @@ The BIOS option for Wake-on-LAN must be enabled. The path to this menu differs i
 
 ## Python script
 
-The script simply broadcasts a magic packet to the FreeNAS' MAC address on the LAN over port 80. To adapt it to your LAN, change the MAC and the local broadcast IP address.
+The tiny script – now embedded in the applescript, thanks [lsegal](https://github.com/lsegal) – broadcasts a magic packet to the FreeNAS' MAC address on the LAN over port 80. To adapt it to your LAN, change the MAC and the local broadcast IP address.
 
 ## Applescript
 
