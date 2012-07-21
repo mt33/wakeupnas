@@ -17,6 +17,7 @@ Export the .scpt as app by File > Save As... > *.app. Spotlight is set to only i
 ![Wake up NAS - Spotlight](https://github.com/mt33/wakeupnas/raw/master/screenshots/spotlight.png)
 
 And a simple confirmation (default is on Yes, so I can hit Enter):
+
 ![Wake up NAS - Confirm](https://github.com/mt33/wakeupnas/raw/master/screenshots/confirm.png)
 
 One second later the blue power LED on the box is on.
